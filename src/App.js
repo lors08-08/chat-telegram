@@ -1,24 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Route } from "react-router-dom";
+import MainBox from "./Components/MainBox/MainBox";
+import ProfileWrapper from "./Components/ProfileId/ProfileWrapper";
+import SideBar from "./Components/Sidebar/SideBar";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <Route path="/:id?">
+        <SideBar />
+        <MainBox />
+        <ProfileWrapper />
+      </Route>
     </div>
   );
 }
