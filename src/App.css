@@ -4,7 +4,6 @@
   ::-webkit-scrollbar {
     display: none;
   }
-  
   .app {
     display: flex;
     width: auto;
@@ -121,7 +120,6 @@
   }
   .main-box-chat-log {
     min-width: 300px;
-    
   }
   .box-text-holder {
     height: 80vh;
@@ -238,7 +236,6 @@
   .pic-avatar-min {
     width: 60px;
   }
- 
   .pic-avatar-min-2 {
     margin-top: 10px;
     width: 28px;
@@ -361,7 +358,6 @@
   }
   .files-media {
     font-weight: bold;
-  
   }
   .text-object {
     margin-left: 10px;
@@ -477,7 +473,6 @@
     color: white !important;
     cursor: default;
   }
-
   .profile-exit-active {
     width: 0;
   }
@@ -487,7 +482,6 @@
   .profile-enter-active {
     width:50%;
   }
-  
   .fade-enter {
     transform: scale(0);
   }
@@ -504,4 +498,3 @@
   .fade-exit-active {
     transition: opacity 500ms, transform 100ms;
   }
-  
