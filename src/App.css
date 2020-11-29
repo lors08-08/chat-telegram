@@ -46,6 +46,12 @@
     width: 100%;
     padding-left: 10px;
   }
+  .github-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+  }
   .box-loading {
     margin: auto;
     background-color: rgb(252, 250, 250);
